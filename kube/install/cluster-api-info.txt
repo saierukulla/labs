@@ -1,6 +1,7 @@
 kubectl get all --all-namespaces
 kubectl get compnentstatus
 kubectl get cluster-info
+kubectl get cluster-info dump   # --output-directory=/path/to/cluster-state (output will be directed to these location)
 kubectl get cluster-info dump
 kubectl api-resources
 kubectl api-resources --namespaced=true      # All namespaced resources
